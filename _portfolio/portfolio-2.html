@@ -1,19 +1,29 @@
 ---
-title: "Micromouse"
-excerpt: "One of my current projects: a maze solving PCB robot<br/><img src='/images/micromouse.jpg'>"
+title: "CID Bioscience"
+excerpt: "Handheld spectroscopy sensors and comms modules<br/><img src='/images/apples.jpg'>"
 collection: portfolio
 ---
 
-I'm currently working with a small team to make a maze-solving mouse robot for the IEEE club's Micromouse competition. 
-We assembled and raced a pre-designed "rat" in fall to practice the basic format of the competition and gain familiarity 
-with the processor. In winter, we designed and ordered our own custom PCB in Eagle, and we are currently in the process 
-of assembling our mouse. I recently finished the maze-solving algorithm (floodfill) we will use for the main competition, 
-a simulation of which is shown below (written in C).
+I interned at CID Bioscience during the summer of 2023. CID is a small biotech company based in
+Camas, WA, which designs and produces instruments for use in scientific and agricultural research. 
 
-<iframe width="560" height="315" 
-src="https://www.youtube.com/embed/uNpJ6eyudv4" 
-title="YouTube video player" frameborder="0" 
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-allowfullscreen></iframe>
+I spent the first month of my internship with a device called the CI-710, which was a handheld leaf 
+spectrometer used for agricultural and scientific research. I spent about a month debugging an unstable
+version of the code and prepared a release candidate for a new version of the software. 
 
-<img src='/images/micromouse2.jpg'>
+My second major project was creating a communications module for a gas detector. This was a custom 
+instrument that a small team was building for a postharvest company. It was intended to differentiate 
+concentrations of two similar chemicals used in controlling fruit ripening. 
+
+My job was to create a communication system that would store the data from the device on the cloud. 
+I started with a BluesIO LTE module, which I used as an intermediary between the sensor board and a 
+database. I learned how to use basic UART communications to pass JSON packets back and forth between the 
+two boards, and I used BluesIO's built-in Notehub service to route data to AWS. 
+
+Documentation of the project can be found at https://github.com/JustinePend/BluesComms
+
+<img src='/images/710.webp'>
+Image from CID Bioscience
+
+<img src='/images/blues.jpg'>
+Image from the BluesIO website
