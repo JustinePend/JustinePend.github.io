@@ -8,6 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-I'm a third-year Computer Science and Engineering (CSE) Major and Conservation Biology Minor at UCLA. I'm interested in the intersection of environmental science and technology, and I have extensive experience in robotics, remote sensing, and microcontrollers. 
-
-Most of my experience comes from projects within university research labs, as well as robotics and some personal projects. I'm always interested in trying something out of my comfort zone. 
+I'm a fourth-year Computer Engineering Major and Conservation Biology Minor at UCLA. I'm interested in robotics, remote sensing, instrumentation firmware, and the intersection of environmental science and technology. I love combining different topics in interdisciplinary fields, and I am always interested in trying something out of my comfort zone.
